@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import DashboardBorder from "../../../../public/assets/icons/dashboard_border_line.svg";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -99,15 +98,15 @@ const SideBar: React.FC<SideBarProps> = ({ setCollapsed, collapsed }) => {
           }`}
         >
           {
-            <Image
-              src={DashboardBorder}
-              alt="DashboardBorder"
-              width={4}
-              height={40}
-              className={`!absolute right-0 ${
-                collapsed ? "top-[100px]" : "top-[130px]"
-              }`}
-            />
+            // <Image
+            //   src={DashboardBorder}
+            //   alt="DashboardBorder"
+            //   width={4}
+            //   height={40}
+            //   className={`!absolute right-0 ${
+            //     collapsed ? "top-[100px]" : "top-[130px]"
+            //   }`}
+            // />
           }
           {/* {item?.icon && (
             <Image
